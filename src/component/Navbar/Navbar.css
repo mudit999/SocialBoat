@@ -1,0 +1,43 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 16px 30px 16px;
+}
+
+.Logo{
+    width: 40px;
+    height: 40px;
+}
+
+.CompanyNameImg{
+    width: 215px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.ProfilePic{
+    width: 43px;
+    height: 43px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 750px) {    
+    .Logo{
+        width: 28px;
+        height: 28px;
+    }
+    
+    .CompanyNameImg{
+        width: 161px;
+        height: 24px;
+        padding-left: 5px;
+    }
+    
+    .ProfilePic{
+        display: none;
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+    }
+  }
